@@ -27,6 +27,8 @@ ul {
 img {
         display: block;
 }
+
+
 .container {
         width: 1158px;
         margin: 0 auto;
@@ -131,6 +133,11 @@ body {
         letter-spacing: 0.03em;
         text-transform: uppercase;
         color: var(--primary-titletxt-color);
+}
+
+.logo-link {
+        margin-bottom: 17.5px;
+        margin-right: 0;
 }
 
 .menu {
@@ -303,16 +310,22 @@ background-color: var(--primary-bg-color);
 }
 /* ================= FOOTER ================= */
 .footer {
-        position: absolute;
-        width: 1440px;
+        padding-top: 101.5px;
+        padding-bottom: 100px;
         background: var(--primary-titletxt-color);
+        
 }
+
+
+
 .footer-paragraph {
         font-family: 'Roboto', sans-serif;
         font-size: 16px;
-        line-height: 24px;
+        line-height: 1.5;
         letter-spacing: 0.02em;
         color:var(--secondary-bg-color);
+        background-color:#2e2f42 ;
+        width: 264px;
 }
 
 .logos {
