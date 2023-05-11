@@ -224,19 +224,44 @@ background-color: var(--primary-bg-color);
 .our-qualities {
 background-color:var(--primary-bg-color);
 }
+.section {
+        padding-top: 120px;
+        padding-bottom: 120px;
+}
+
+.visually-hidden {
+        position: absolute;
+        width: 1px;
+        height: 1px;
+        margin: -1px;
+        order: 0;
+        padding: 0;
+        white-space: nowrap;
+        clip-path: inset(100%);
+        clip: rect(0 0 0 0);
+        overflow: hidden;
+}
+
+.feauters-list {
+        display: flex;
+        gap: 24px;
+}
+
 .qualities {
 background-color: var(--primary-bg-color);
+width: calc((100% - 72px) / 4);
 }
 .qualities-title {
-        font-family: 'Roboto', sans-serif;
+        font-family: "Roboto",sans-serif;
         font-weight: 500;
         font-size: 20px;
         line-height: 1.2;
         letter-spacing: 0.02em;
         color:var(--primary-titletxt-color);
+        margin-bottom: 8px;
 }
 .qualities-paragraph {
-        font-family: 'Roboto', sans-serif;
+        font-family: "Roboto",sans-serif;
         font-size: 16px;
         line-height: 1.5;
         letter-spacing: 0.02em;
@@ -316,7 +341,9 @@ background-color: var(--primary-bg-color);
         
 }
 
-
+.footer-container {
+        max-width: 1158px;
+}
 
 .footer-paragraph {
         font-family: 'Roboto', sans-serif;
