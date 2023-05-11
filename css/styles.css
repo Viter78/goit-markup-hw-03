@@ -267,9 +267,15 @@ width: calc((100% - 72px) / 4);
         letter-spacing: 0.02em;
         color:var(--primary-txt-color);
 }
-.our-activity {
+.activity {
 background-color: var(--primary-bg-color);
 }
+
+.our-activity {
+        display: flex;
+        gap: 24px;
+}
+
 .our-activity-title {
         font-family: 'Roboto', sans-serif;
         font-weight: 700;
@@ -279,12 +285,32 @@ background-color: var(--primary-bg-color);
         letter-spacing: 0.02em;
         text-transform: capitalize;
         color: var(--primary-titletxt-color);
+        margin-top: 0px;
+        margin-right: auto;
+        margin-bottom: 72px;
+        margin-left: auto;
+}
+
+.our-activity-card {
+        flex-basis: calc((100% - 48px) / 3);
+
 }
 .our-team {
         background-color: var(--secondary-bg-color);
 }
+
+.team-list {
+        display: flex;
+        gap: 24px;
+}
+
 .team-employee {
 background-color: var(--primary-bg-color);
+flex-basis: calc((100% - 72px) / 4);
+box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 
+0px 1px 1px rgba(46, 47, 66, 0.16), 
+0px 2px 1px rgba(46, 47, 66, 0.08);
+border-radius: 0px 0px 4px 4px;
 }
 .team {
         font-family: 'Roboto', sans-serif;
@@ -295,6 +321,9 @@ background-color: var(--primary-bg-color);
         letter-spacing: 0.02em;
         text-transform: capitalize;
         color: var(--primary-titletxt-color);
+        margin-right: auto;
+        margin-bottom: 72px;
+        margin-left: auto;
 }
 .team-name {
         font-family: 'Roboto', sans-serif;
@@ -304,6 +333,8 @@ background-color: var(--primary-bg-color);
         text-align: center;
         letter-spacing: 0.02em;
         color: var(--primary-titletxt-color);
+        margin-bottom: 8px;
+
 }
 .team-paragraph {
         font-family: 'Roboto', sans-serif;
@@ -333,6 +364,11 @@ background-color: var(--primary-bg-color);
                 letter-spacing: 0.02em;
                 color: var(--primary-txt-color);
 }
+
+.employee-container {
+        padding: 32px 16px;
+}
+
 /* ================= FOOTER ================= */
 .footer {
         padding-top: 101.5px;
