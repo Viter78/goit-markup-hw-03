@@ -97,12 +97,14 @@ body {
 
 .examples-list {
         display: flex;
+        list-style: none;
         flex-wrap: wrap;
-        gap: 24px;
+        column-gap: 24px;
+        row-gap: 48px;
 }
 
 .examples-card {
-
+        width: calc((100% - 48px) / 3);
 }
 
 .filter-button {
