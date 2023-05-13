@@ -139,23 +139,18 @@ border-top: none;
 /* ================= HEADER ================= */
 
 .page-header {
-        display:flex;
-        align-items: center;
-        padding-top: 24px;
-        padding-bottom: 24px;
+        background-color: #FFFFFF;
         border-bottom: 1px solid #e7e9fc;
-
 }
 
 .header-container {
         display: flex;
-        justify-content: space-between;
 }
 
 .page-navigation {
         display: flex;
         align-items: center;
-        column-gap: 76px;
+        margin-right: auto;
 }
 
 .logo {
@@ -163,11 +158,13 @@ border-top: none;
         font-weight: 800;
         font-size: 18px;
         line-height: 1.17;
-        display: flex;
         align-items: center;
         letter-spacing: 0.03em;
         text-transform: uppercase;
         color: #4D5AE5;
+        margin-right: 76px;
+        padding-top: 25.5px;
+        padding-bottom: 25.5px;
 }
 
 .log {
@@ -175,8 +172,6 @@ border-top: none;
         font-weight: 800;
         font-size: 18px;
         line-height: 1.17;
-        display: flex;
-        align-items: center;
         letter-spacing: 0.03em;
         text-transform: uppercase;
         color: var(--primary-titletxt-color);
@@ -189,7 +184,7 @@ border-top: none;
 
 .menu {
         display: flex;
-        column-gap: 40px;
+        gap: 40px;
 }
 
 .menu-item {
@@ -203,6 +198,7 @@ background-color: var(--primary-bg-color);
         line-height: 1.5;
         letter-spacing: 0.02em;
         color:var(--primary-titletxt-color);
+        padding: 24px 0;
 }
 
 .menu-link:hover,
@@ -212,7 +208,8 @@ background-color: var(--primary-bg-color);
 
 .menu-contacts {
         display: flex;
-        column-gap: 40px;
+        gap: 40px;
+        padding: 24px 0;
 }
 
 .contacts {
