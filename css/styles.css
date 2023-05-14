@@ -134,7 +134,7 @@ border-top: none;
 .filter-button:focus {
         background-color: var(--accent-hover-color);
         color:#FFFFFF;
-        border: 1px solid
+        border: 1px solid transparent;
 }
 
 .employee-container {
